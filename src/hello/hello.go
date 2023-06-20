@@ -15,4 +15,13 @@ func main() {
 
 	fmt.Println("O tipo da variavel nome é:", reflect.TypeOf(name))
 
+	fmt.Println("===============================")
+	fmt.Println("| [1] Iniciar Monitoramento   |")
+	fmt.Println("| [2] Exibir os Logs          |")
+	fmt.Println("| [0] Sair do Programa        |")
+	fmt.Println("===============================")
+	var option int
+	fmt.Scanf("%d", &option)
+	// fmt.Scan(&option)
+	fmt.Println("O endereço da minha variavel option é:", &option)
 }
